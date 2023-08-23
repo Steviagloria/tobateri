@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Poppinsku';
+    src:
+        url('/fonts/Poppins/Poppins-Regular.ttf'),
+        url('/fonts/Poppins/Poppins-Bold.ttf'),
+        url('/fonts/Poppins/Poppins-Italic.ttf');
+}
+
+body {
+    font-family: 'Poppinsku';
+}
+
+.not-full-hover:hover {
+    background-color: #343a40 !important;
+    outline: 2px solid #ffffff;
+}
